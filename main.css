@@ -1,0 +1,34 @@
+.key-benefits{
+    width:1200px;
+}
+.key-benefits h2{
+    font-family: 'Inter', sans-serif;
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+}
+.key-benefits span{
+    font-family: 'Inter', sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:var(--font-color-dark);
+    display:block;
+    text-align:center;
+}
+.cards-container{
+    display:flex;
+}
+
+.card-1,.card-2,.card-3,.card-4{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    box-shadow:14px 16px 14px 7px rgba(156,156,156,0.8);
+    border-radius:8px;
+    width:300px;
+    height:250px;
+}
+#customizable,#responsive{
+    width:80px;
+    height:80px;
+}
