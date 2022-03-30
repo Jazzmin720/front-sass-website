@@ -439,11 +439,15 @@ textarea{
 /*footer*/
 footer{
     display:flex;
-    margin-top:50px;
+    flex-direction:row;
+    justify-content:space-around;
+    padding-top:50px;
+    margin:auto;
 }
 .logo-section{
     display:flex;
     flex-direction:column;
+    color:var(--font-color-dark);
 }
 #logoFooter{
     width:100px;
@@ -458,4 +462,47 @@ footer{
 .phone{
     width:130px;
     height:40px;
+}
+.company-section{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width:133px;
+    
+}
+.careers span{
+    padding-left:5px;
+}
+.careers a{
+    background-color: #5077be;
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:400;
+}
+.careers{
+    display:flex;
+    height:18.75px;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.features-section,.documentation-section{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+}
+.resources-section{
+    display:flex;
+    flex-direction:column;
+}
+.help,.resources{
+    margin-bottom:20px;
+}
+.fa-circle-info,.fa-circle-user{
+    padding-right:10px;
 }
