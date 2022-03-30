@@ -1,0 +1,64 @@
+.key-benefits{
+    width:1200px;
+   
+}
+.key-benefits-top{
+    font-family: 'Inter', sans-serif;
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+}
+.key-benefits-top h2{
+    margin-bottom:10px;
+}
+.key-benefits-top span{
+    font-family: 'Inter', sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:var(--font-color-dark);
+    display:block;
+    text-align:center;
+    
+}
+.key-benefits{
+   margin:auto;
+   padding-top:100px;
+  
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: space-between;
+}
+
+.card-1,.card-2,.card-3,.card-4{
+   
+    box-shadow:14px 16px 14px 7px rgba(211,211,211,0.8);
+    border-radius:8px;
+    width:290px;
+   
+}
+#customizable,#responsive,#premium,#documentation{
+    width:80px;
+    height:80px;
+    padding:20px;
+}
+.text{
+    padding:20px;
+}
+.learn-more-2{
+    border:1px solid transparent;
+    border-radius:40px;
+    background-color:white;
+    margin-left:20px;
+    margin-top:0;
+    margin-bottom:20px;
+}
+.learn-more-2 a{
+    color:var(--link-hover);
+    font-weight:600;
+    text-decoration: none;
+}
+.fa-angle-right{
+    font-size:12px;
+    
+}
